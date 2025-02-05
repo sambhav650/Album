@@ -50,3 +50,54 @@ header img {
     transform: scale(1.05);
     cursor: pointer;
 }
+/* About Section */
+.about {
+    padding: 30px;
+    background: #1a1a1a;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(255, 0, 255, 0.5);
+}
+
+.about h1 {
+    font-size: 2rem;
+    background: linear-gradient(45deg, #ff00ff, #ff8800);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 15px;
+}
+
+.about p {
+    font-size: 1.2rem;
+    color: #ddd;
+}
+
+/* Credits Section */
+.credits {
+    margin-top: 20px;
+}
+
+.credits h2 {
+    font-size: 1.8rem;
+    color: #ff00ff;
+}
+
+.normal-credits, .special-credits {
+    margin-top: 15px;
+}
+
+.normal-credits h3, .special-credits h3 {
+    font-size: 1.5rem;
+    color: #ff8800;
+}
+
+.normal-credits ul, .special-credits ul {
+    list-style: none;
+    padding: 0;
+}
+
+.normal-credits li, .special-credits li {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 5px 0;
+}
